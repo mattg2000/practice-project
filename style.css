@@ -1,0 +1,106 @@
+body{
+	background-color: darkslategray;
+}
+
+.jumbotron-fluid{
+	text-align: center;
+	font-family: Elephant;
+	background-color: lightpink;
+}
+
+.bg-darkslategray{
+	background-color: lightpink;
+}
+
+.display-4{
+	color: white;
+	text-shadow: -1px -2px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.bg-pink{
+	background-color: lightpink;
+	border-color: lightgray;
+	border-bottom-width: 10px;
+}
+
+.collapse{
+	color: darkslategray;
+}
+
+.overlay-1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: auto;
+	right: auto;
+	height: 100%;
+	width: 90%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: darkslategray;
+}
+
+.col-lg-3:hover .overlay-1 {
+	opacity: .9;
+}
+
+.col-lg-3:hover .overlay-2 {
+	opacity: .9;
+}
+
+.text {
+	color: black;
+	font-family: "Open Sans";
+	font-weight: bold;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+img[src*="jpeg"] {
+	border: 13px solid #ffffff;
+}
+
+.container{
+	background-color: lightpink;
+	margin: auto;
+	padding: 10px;
+}
+
+h2{
+	color: darkslategray;
+	font-family: Elephant;
+}
+
+.about-img {
+	postion: relative;
+	background: #66594C;
+	height: 250px;
+	width: auto;
+	padding: 5px;
+	text-align: center;
+}
+
+.col-md-6{
+	text-align: center;
+	color: #66594C;
+}
+
+.aboutme{
+	background-color: lightpink;
+	padding: 20px;
+	font-family: Elephant;
+	margin: 10px;
+	color: darkslategray;
+}
+
+.bg-lightpink{
+	padding-top: 15px;
+}
+
+
