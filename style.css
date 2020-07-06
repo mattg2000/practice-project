@@ -71,7 +71,7 @@ img[src*="jpeg"] {
 .container{
 	background-color: lightpink;
 	margin: auto;
-	padding: 10px;
+	padding: 10px;text-align: center;
 }
 
 h2{
@@ -151,7 +151,5 @@ h2{
 	background: cornflowerblue;
 	color: #fff;
 }
-
-
 
 
