@@ -1,10 +1,12 @@
 body{
-	background-color: darkslategray;
+	background-color: darkslategray;/*
+	font-family: 'Fondamento', cursive;*/
+	font-family: cursive;
 }
 
 .jumbotron-fluid{
 	text-align: center;
-	font-family: Elephant;
+	/*font-family: Elephant;*/
 	background-color: lightpink;
 }
 
@@ -74,7 +76,7 @@ img[src*="jpeg"] {
 
 h2{
 	color: darkslategray;
-	font-family: Elephant;
+	/*font-family: Elephant;*/
 }
 
 .about-img {
@@ -94,7 +96,7 @@ h2{
 .aboutme{
 	background-color: lightpink;
 	padding: 20px;
-	font-family: Elephant;
+	/*font-family: Elephant;*/
 	margin: 10px;
 	color: darkslategray;
 }
@@ -102,5 +104,54 @@ h2{
 .bg-lightpink{
 	padding-top: 15px;
 }
+
+.contact{
+	background-color: lightpink;
+	color: darkslategray;
+	margin: 10px;
+	padding: 20px;
+}
+
+.foot{
+	text-align: center;
+	background-color: lightpink;
+	color: whitesmoke;
+	padding: 10px;
+	margin: 0;
+}
+
+.btn-linkedin {
+	background: darkslategray;
+	border-radius: 0;
+	color: whitesmoke;
+	border-width: 1px;
+	border-style: solid;
+	border-color: whitesmoke;
+}
+.btn-linkedin:link, .btn-linkedin:visited {
+	color: whitesmoke;
+}
+.btn-linkedin:active, .btn-linkedin:hover {
+	background: gray;
+	color: #fff;
+}
+
+.btn-github {
+	background: skyblue;
+	border-radius: 0;
+	color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #66594C;
+}
+.btn-github:link, .btn-github:visited {
+	color: #66594C;
+}
+.btn-github:active, .btn-github:hover {
+	background: cornflowerblue;
+	color: #fff;
+}
+
+
 
 
